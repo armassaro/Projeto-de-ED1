@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <BODY>
 
-    <center><h1>Projeto de ED</h1></center>
-    <style>
-    
-        h1 {
-    
-            font-family: Comic Sans;
-            color: white;
-            
-        }
-        p {
-    
-            font-family: Comic Sans;
-            color: white;
-    
-        }
-    
-    </style>
+    <center style = "color: pink"><h1>Projeto de ED</h1></center>
     
     <p>Projeto de Ed1</p>
     
