@@ -1,3 +1,6 @@
+//Atividade Avaliativa de ED1
+//Dupla: Michel Lima/ Arthur Romano
+
 #include <stdio.h>
 #include <stdlib.h>
 
