@@ -1,3 +1,3 @@
-<center><h1>Projeto de ED</h1></center>
+<center>Projeto de ED</center>
 
 Projeto de ED1
