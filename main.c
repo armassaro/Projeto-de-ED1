@@ -7,7 +7,7 @@ typedef struct Funcionarios{
 
 typedef struct No{
     Funcionarios funcionarios;
-    struct Lista *proximo, *anterior;
+    struct No *proximo, *anterior;
 }No;
 
 typedef struct Lista{
@@ -16,6 +16,6 @@ typedef struct Lista{
 
 int main (){
     Lista lista;
-    
+
     return 0;
 }
