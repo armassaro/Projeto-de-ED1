@@ -1,3 +1,24 @@
-<center>Projeto de ED</center>
+<!DOCTYPE html>
+<BODY>
 
-Projeto de ED1
+    <center><h1>Projeto de ED</h1></center>
+    <style>
+    
+        h1 {
+    
+            font-family: Comic Sans;
+            color: white;
+            
+        }
+        p {
+    
+            font-family: Comic Sans;
+            color: white;
+    
+        }
+    
+    </style>
+    
+    <p>Projeto de Ed1</p>
+    
+</BODY>
