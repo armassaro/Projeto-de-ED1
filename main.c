@@ -11,12 +11,12 @@ typedef struct No{
 }No;
 
 typedef struct Lista{
-    No* Inicio;
+    No* inicio;
     int tamanhoLista;
 }Lista;
 
 void inicializaLista(Lista* lista){
-    lista->Inicio = NULL;
+    lista->inicio = NULL;
     lista->tamanhoLista = 0;
 }
 
