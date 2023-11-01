@@ -1,3 +1,9 @@
 # Objetivo
 ---
-![](https://i.redd.it/bolsonaro-an%C3%A3o-pra-dar-boa-noite-pra-geral-v0-vddir5l8vhw91.jpg?s=28d77e6362321e5bc37b9b522010e7333d8a4790)
+Este trabalho possui como objetivo a aquisição de nota parcial na disciplina de Estrutura de Dados 1.
+
+
+
+# Composição do código
+---
+O código feito neste trabalho se deu por meio da linguagem C.
