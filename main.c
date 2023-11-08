@@ -3,9 +3,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
+typedef struct Data{
+    int dia, mes, ano;
+}Data;
 
 typedef struct Funcionarios{
     char nome[40];
+    char endereco[40];
+    Data datanascimento;
+    float salario;
 }Funcionarios;
 
 typedef struct No{
@@ -23,8 +31,16 @@ void inicializaLista(Lista* lista){
     lista->tamanhoLista = 0;
 }
 
-int main (){
+void lercsv(Lista* lista){
+    No *aux = (No*) malloc (sizeof(No));
+    //FILE *arquivo = fopen(,"r");
+
+}
+
+int main (char argc[], int argv){
     Lista lista;
+    printf("\n%s\n",argv[1]);
     inicializaLista(&lista);
+    //lercsv(&lista);
     return 0;
 }
