@@ -71,8 +71,51 @@ void inicializaLista(Lista* lista){
     lista->tamanhoLista = 0;
 }
 
-void pesquisaAZ(Lista *lista) {
+void pesquisaAZ(No *no) {
 
+    no auxNo;
+
+    if(no == NULL || no->proximo == NULL) {  //condição de parada se chegar no final da lista
+
+        return;
+
+    }
+    else {
+
+        if(no->anterior == NULL) {  // condição pra pegar o primeiro nó da lista
+
+            if(strcmp(no->funcionarios.nome, no->proximo.funcionarios.nome) == 1) {
+
+                auxNo = no;
+                no = no->proximo;
+                no->proximo = auxNo;
+
+            }
+
+        }
+        else {  //condições se estiver no meio da lista
+
+            if(strcmp(no->anterior->funcionarios.nome, no->funcionarios.nome) == 1) {  
+
+                auxNo = no->anterior;
+                no->anterior = no;
+                no = auxNo;
+                
+            }
+
+            if(strcmp(no->funcionarios.nome, no->proximo.funcionarios.nome) == 1) {
+
+                auxNo = no;
+                no = no->proximo;
+                no->proximo = auxNo;
+
+            }
+
+            pesquisaAZ(no->proximo);
+
+        }
+
+    }
 
 }
 
